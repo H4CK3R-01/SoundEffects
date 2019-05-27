@@ -32,6 +32,7 @@ public class AudioPlayerUI extends JFrame implements ActionListener {
 
     public AudioPlayerUI() {
         super("SoundEffects - Player");
+        setIconImage(new ImageIcon(getClass().getClassLoader().getResource("img/SoundEffects.png")).getImage()); // Icon des Fensters festlegen
         setLayout(new GridBagLayout());
         GridBagConstraints constraints = new GridBagConstraints();
         constraints.insets = new Insets(5, 5, 5, 5);

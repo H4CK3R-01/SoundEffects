@@ -204,6 +204,7 @@ public class UI extends Thread {
         setColumnWidth();
         tableScrollPane = new JScrollPane(table);
         mainFrame.add(tableScrollPane, BorderLayout.CENTER);
+        mainFrame.setIconImage(new ImageIcon(getClass().getClassLoader().getResource("img/SoundEffects.png")).getImage()); // Icon des Fensters festlegen
 
         //mainFrame.revalidate();
         mainFrame.repaint();
